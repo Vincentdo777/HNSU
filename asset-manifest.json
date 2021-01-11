@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/HNSU/static/css/main.c7971e19.chunk.css",
+    "main.js": "/HNSU/static/js/main.e4c7de3d.chunk.js",
+    "main.js.map": "/HNSU/static/js/main.e4c7de3d.chunk.js.map",
+    "runtime-main.js": "/HNSU/static/js/runtime-main.259e920c.js",
+    "runtime-main.js.map": "/HNSU/static/js/runtime-main.259e920c.js.map",
+    "static/js/2.557dbfdd.chunk.js": "/HNSU/static/js/2.557dbfdd.chunk.js",
+    "static/js/2.557dbfdd.chunk.js.map": "/HNSU/static/js/2.557dbfdd.chunk.js.map",
+    "index.html": "/HNSU/index.html",
+    "static/css/main.c7971e19.chunk.css.map": "/HNSU/static/css/main.c7971e19.chunk.css.map",
+    "static/js/2.557dbfdd.chunk.js.LICENSE.txt": "/HNSU/static/js/2.557dbfdd.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/HNSU/static/media/img-3.6d683c0e.jpg",
+    "static/media/pte.0dd153ba.jpg": "/HNSU/static/media/pte.0dd153ba.jpg",
+    "static/media/video2.39e6c79b.mp4": "/HNSU/static/media/video2.39e6c79b.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.259e920c.js",
+    "static/js/2.557dbfdd.chunk.js",
+    "static/css/main.c7971e19.chunk.css",
+    "static/js/main.e4c7de3d.chunk.js"
+  ]
+}
