@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import React from 'react';
+import Navbar from './components/Navbar';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
+import Home from './components/pages/Home';
+import Blogs from './components/pages/Blogs';
+import PtePractice from './components/pages/PtePractice';
+import AboutUs from './components/pages/AboutUs';
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Router>
+          <Navbar></Navbar>
+            <Switch>
+            <Route path='/' exact component={Home} />
+            <Route path='/blogs' component={Blogs}/>
+            <Route path='/pte-practice' component={PtePractice}/>
+            <Route path='/about-us' component={AboutUs}/>
+            </Switch>
+        </Router>
+        
     </div>
   );
 }
